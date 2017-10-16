@@ -1,0 +1,171 @@
+html{
+	  font-size: 62.5%;
+}
+body,p,ul,li;{margin: 0;
+     padding: 0;
+}
+ul,li{
+      list-style: none;
+}
+header,footer {
+	position: fixed;
+	padding: 0.7rem ;
+	line-height: 3.2rem;
+	font-size:37px;
+}
+header{width: 100%;
+       height: 68px;
+       left: 0;
+       right: 0;
+       background-color: #5fc0cd;
+       top: 0;
+       margin: 0;
+       padding-left: 10px;
+   }
+header a{margin-top: 1.1rem;
+	float: left;}
+
+header p{padding: 0;
+	margin: 1rem;
+	text-align: center;
+	font-size: 3rem;
+	color: white;
+}
+footer{
+   display: flex;
+   padding: 10px;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   
+}
+main{position: absolute;
+      top: 7rem;
+    bottom: 7rem;
+    left: 0;
+    right: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;}
+.content{position: relative;
+	  height: auto;
+	  font-size: 1.3rem;
+    top: 0;
+    width: 100%;
+}
+main .content {
+    height: auto;
+
+}
+.person{position:  absolute;
+	      align-items: center;
+        height: 328px;
+        color: #fff;
+        width: 100%;
+        top: 0;
+        background:url("http://119.10.57.69:880/jnshu3941/renwu5/22.png") no-repeat center ;
+        background-size: cover;
+        
+    }
+.touxiang{
+         position:absolute;
+         left: 20px;
+         top: 25%;
+         margin-top: -0.37rem;
+         width: 170px;
+         height: 170px;
+         background: #fff;
+         border-radius: 50%;
+         overflow: hidden; 
+}
+.name{
+    font-size: 25px;
+}
+.position{
+
+}
+.information{
+         position: relative;
+         margin-left: 235px;
+         top: 45%;
+         transform: translateY(-50%);
+}
+.city{ font-size: 20px;
+       margin-top: 0.05rem;
+       padding: 0 0 0 45px;
+       /*background: url(4.png) no-repeat left center;*/
+       background-size: 35px;
+       padding: 0;
+      letter-spacing: 2px;
+}
+.liuyan , .dianhua{
+      border: none;
+      cursor: pointer;
+      outline: none;
+      border-radius: 5px;
+      background: #5fc0cd;
+      color: #fff;
+      font-size: 20px;
+}
+.liuyan{
+     margin-right: 10px;
+     background: #fff;
+     color: #5fc0cd;
+     box-shadow: inset 0 0 0 2px #5fc0cd;
+
+}
+footer > button {
+    flex: 1;
+    height: 45px;
+    width: 50%;
+    background: #ccc;
+}
+.user-form{
+    position: absolute;
+    margin-top: 330px;
+}
+.user-form-title {
+    padding:10px;
+    height:45px;
+   /* line-height: 10px;*/
+    border-bottom: 1px solid #ccc;
+}
+.user-form-title span {
+    padding-left: 10px;
+    border-left: 5px solid #5fc0cd;
+}
+.user-form-list {
+    padding: 0 .1rem;
+}
+.user-form-list li {
+    position: relative;
+    padding: 15px 10px;
+    min-height: 0.2rem;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+}
+.user-form-tag {
+    display: inline-block;
+    padding: 10px 15px;
+    background: url('http://119.10.57.69:880/jnshu3941/renwu5/03.png') no-repeat left center;
+    background-size: 12px;
+}
+.user-form-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    border-right: 1px solid #ccc;
+    color: #aaa;
+}
+.user-form-item {
+    margin-left: 80px;
+}
+span{
+    display: block;
+    margin-top: 15px;
+}
+
